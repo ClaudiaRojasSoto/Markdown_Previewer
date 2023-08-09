@@ -121,16 +121,14 @@
 - `/src/index.js`: Main entry point of the JavaScript application.
 - `/src/App.js`: Top-level component of the application where components are rendered.
 - `/src/components`: Directory for React components.
-- `/src/components/quoteBox.js`: Component for the quoteBox.
-- `/src/components/quoteBox.css`: Styles for the quote box.
-- `/src/components/quoteButtons.js`: Folder for the quote buttons.
-- `/src/components/navbar/quoteButtons.css`: Styles for the quote Buttons.
+- `/src/components/Editor.js`: Component for the Editor
+- `/src/components/Previewer.js`: Folder for the Previewer.
 - `/src/redux`: Directory for Redux management.
 - `/src/redux/store.js`: Redux store configuration.
 - `/src/redux/actions`: Folder for Redux actions.
-- `/src/redux/actions/quoteActions.js`: Actions for quote management.
+- `/src/redux/actions/markdownActions.js`: Actions for markdown management.
 - `/src/redux/reducers`: Folder for Redux reducers.
-- `/src/redux/reducers/quoteReducer.js`: Reducer for quote management.
+- `/src/redux/reducers/markdownReducer.js`: Reducer for markdown management.
 - `/public`: Contains the public files and assets of the application.
 - `/public/index.html`: Base HTML file of the application.
 - `/build`: Contains the generated production files.
